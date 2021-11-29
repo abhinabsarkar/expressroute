@@ -5,7 +5,7 @@ Refer the below mentioned links for details on ExpressRoute
 * [ExpressRoute connectivity models](ExpressRoute-connectivity-models.pdf)
 * [Virtual Network Gateway & GatewaySubnet](virtual-network-gateway.md)
 * [ExpressRoute circuit](expressroute.md)
-* [ExpressRoute locations](expressroute-locations)
+* [ExpressRoute locations](expressroute-locations.md)
 * [ExpressRoute peerings / routing domain](expressroute-peering.md)
 
 ### Items covered
