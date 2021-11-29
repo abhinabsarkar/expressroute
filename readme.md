@@ -1,8 +1,12 @@
 # ExpressRoute
+ExpressRoute lets you extend your on-premises networks into the Microsoft cloud over a private connection with the help of a connectivity provider. 
 
-* [ExpressRoute peering](expressroute-peering.md)
+Refer the below mentioned links for details on ExpressRoute
 * [ExpressRoute connectivity models](ExpressRoute-connectivity-models.pdf)
+* [Virtual Network Gateway & GatewaySubnet](virtual-network-gateway.md)
 * [ExpressRoute circuit](expressroute.md)
+* [ExpressRoute locations](expressroute-locations)
+* [ExpressRoute peerings / routing domain](expressroute-peering.md)
 
 ### Items covered
 1. ExpressRoute circuit
@@ -16,7 +20,7 @@
 7. Ingress - free, Egress - metered. In ER local sku, ingress & egress both are free. 
 8. Routing domain / Peering
 9. Service Key 
-10. ASN - Autonomous System Number, NAT public IPs
+10. ASN - Autonomous System Number, NAT public IPs [BGP & ASN](https://github.bns/abhinabsarkar/networking-basics/blob/main/concepts/bgp-how-it-works.md)
 11. Route filter (Microsoft Peering)
 12. Fastpath for Virtual Network Gateway
 13. Virtual Network Gateway facilitates the communication between MSFT & Customer network. Inbound goes through the Virtual Network Gateway, outbound not. Also, it is used for BGP i.e. sharing of the routes.

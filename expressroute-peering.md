@@ -16,6 +16,14 @@ The private peering domain is a trusted extension of your core network into Micr
 
 [Private Peering Reference Architecture](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/hybrid-networking/expressroute)
 
+#### IP addresses used for Azure private peering
+**IPv4**
+* The first /30 subnet is used for the primary link and the second /30 subnet is used for the secondary link.
+* For each of the /30 subnets, you must use the first IP address of the /30 subnet on your router. Microsoft uses the second IP address of the /30 subnet to set up a BGP session.
+* set up both BGP sessions for our availability SLA to be valid
+
+Refer this link for IPv6 addresses - [IP addresses used for Azure private peering](https://docs.microsoft.com/en-us/azure/expressroute/expressroute-routing#ip-addresses-used-for-azure-private-peering)
+
 ### Microsoft Peering
 Connectivity to Microsoft online services (Microsoft 365 and Azure PaaS services) occurs through Microsoft peering. We enable bi-directional connectivity between your WAN and Microsoft cloud services through the Microsoft peering routing domain.
 
